@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: coral;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(192, 18, 53);
+            color: aliceblue;
+            font-size: 20px;
+            padding: 10px 40px;
+            border-color: rgb(192, 18, 53);
+            border-radius: 20px;
+            transition-duration: 300ms;
+            /*для плавности*/
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        a:hover {
+            background-color: rgb(134, 19, 42);
+        }
+
+        /*стили при наведении*/
+        img {
+            width: 33%;
+        }
+
+        .box {
+            padding: 16px;
+        }
+
+        .manifesto {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 1.125rem;
+            line-height: 1.7;
+            color: #000000;
+        }
+
+        .highlight {
+            display: block;
+            margin-top: 0.5em;
+            font-style: italic;
+            color: #4018f1;
+            font-weight: 500;
+        }
+
+        .manifesto h3 {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin: 2rem 0 0.75rem 0;
+            color: #000;
+            letter-spacing: -0.02em;
+        }
+
+        .pause p {
+            font-size: 1.25rem;
+            line-height: 1.4;
+            margin: 1.8rem 0;
+            text-align: center;
+            font-style: italic;
+            color: #4018f1;
+        }
+
+        .core-idea {
+            margin: 2.5rem 0;
+            padding: 1.2rem;
+            background: rgba(0, 0, 0, 0.02);
+            border-left: 2px solid #ccc;
+            font-style: italic;
+        }
+
+        .philosophy {
+            margin: 2rem 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .closing-poem {
+            margin: 3rem 0 2rem;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            text-align: center;
+            font-style: italic;
+            color: #4018f1;
+        }
+
+        .manifesto-footer {
+            text-align: center;
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .kartinka-s-tekstom {
+            display: flex;
+            align-items: center;
+        }
+
+        .img-box img{width: 100%;}
+    </style>
+</head>
+
+<body>
+    <h1>Граффити - как вид искусства</h1>
+    <div class="box">
+        <a href="history.html">История появления граффити</a>
+        <a href="gallery.html">Граффити Новосибирска</a>
+    </div>
+    <div class="manifesto">
+        <p class="intro">
+            Он выдержан в балансе между уважением к художникам, ясностью для новичков и интеллектуальной глубиной —
+            без академической сухости, но и без романтизации.
+            <span class="highlight">Граффити — это не надпись на стене. Это живопись, скульптура тени, диалог с
+                городом.</span>
+        </p>
+
+        <p>Этот сайт — не каталог вандализма. Почему граффити — искусство?<br>
+            Потому что настоящее граффити — это не случайность. Это осознанный акт творчества, и вот его признаки:</p>
+
+        <div class="principle">
+            <h3>Авторский посыл</h3>
+            <p>Работа говорит — о войне, надежде, забвении, юморе. Случайная надпись без мысли — не граффити-искусство.
+            </p>
+        </div>
+
+        <div class="principle">
+            <h3>Работа с пространством</h3>
+            <p>Холст — не холст, а стена, лестница, вентиляционная шахта.
+                Художник считывает рельеф, свет, движение прохожих.</p>
+        </div>
+
+        <div class="kartinka-s-tekstom">
+            <div class="img-box">
+                <img src="./imgs/inx600x400.jpg" alt="">
+            </div>
+            <p class="core-idea">
+                Разница между вандализмом и искусством — не в баллончике.<br>
+                В намерении, уважении и мастерстве.
+                Этот сайт — архив, сделанный с уважением.<br>
+                Не для того, чтобы зафиксировать всё подряд.<br>
+                А чтобы сохранить то, что говорит.
+            </p>
+        </div>
+
+        <div class="pause">
+            <p>Начните с одной работы.</p>
+            <p>Потом — с одной мысли.</p>
+        </div>
+
+        <p class="philosophy">
+            Изучаем — не осуждая.<br>
+            Ценим — не романтизируя.<br>
+            Здесь нет «обучающего курса».<br>
+            Нет «правильных ответов».<br>
+            Нет иерархии: «хорошее» vs «плохое».
+        </p>
+
+        <p class="closing-poem">
+            Есть стены.<br>
+            Есть руки, которые к ним прикоснулись.<br>
+            Есть время, за которое краска выгорела, потрескалась, стёрлась —<br>
+            или, наоборот, стала частью города.<br>
+            Город не принадлежит тем, кто его строит.<br>
+            Он — у тех, кто в него вглядывается.
+        </p>
+
+        <footer class="manifesto-footer">
+            <p>Сайт создан с уважением к стенам, художникам и тем, кто не проходит мимо.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
